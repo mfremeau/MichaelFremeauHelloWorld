@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HelloWorldConsole", "HelloWorldConsole\HelloWorldConsole.xproj", "{EFC01850-2D82-4C77-82ED-6F1433E00BE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FremeauAPI", "HelloWorldAPI\FremeauAPI.csproj", "{B77B5A26-9EE9-4AC6-A6BB-D917AFA5FC8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FremeauAPI.Tests", "HelloWorldAPI.Tests\FremeauAPI.Tests.csproj", "{9525DC46-F467-40B9-A2FE-C5F823D5D797}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFC01850-2D82-4C77-82ED-6F1433E00BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC01850-2D82-4C77-82ED-6F1433E00BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC01850-2D82-4C77-82ED-6F1433E00BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC01850-2D82-4C77-82ED-6F1433E00BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77B5A26-9EE9-4AC6-A6BB-D917AFA5FC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77B5A26-9EE9-4AC6-A6BB-D917AFA5FC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77B5A26-9EE9-4AC6-A6BB-D917AFA5FC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77B5A26-9EE9-4AC6-A6BB-D917AFA5FC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9525DC46-F467-40B9-A2FE-C5F823D5D797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9525DC46-F467-40B9-A2FE-C5F823D5D797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9525DC46-F467-40B9-A2FE-C5F823D5D797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9525DC46-F467-40B9-A2FE-C5F823D5D797}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
